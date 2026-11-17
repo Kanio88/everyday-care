@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Everyday Care Plus — Home Care Guides</title>
+    <link>https://every-day-care.com/blog/</link>
+    <description>Practical home-care guides for families in Sandwell and Dudley.</description>
+    <language>en-GB</language>
+    <item>
+      <title>Autism Home Care: What to Expect</title>
+      <link>https://every-day-care.com/blog/autism-home-care-what-to-expect/</link>
+      <guid>https://every-day-care.com/blog/autism-home-care-what-to-expect/</guid>
+      <description>What families can discuss when arranging autism-informed home support, including routines, sensory preferences and communication.</description>
+    </item>
+    <item>
+      <title>Why Routines Matter: Building Stability for Autistic Adults at Home</title>
+      <link>https://every-day-care.com/blog/autism-routines-home-care/</link>
+      <guid>https://every-day-care.com/blog/autism-routines-home-care/</guid>
+      <description>How predictable routines and consistent support can help autistic adults at home.</description>
+    </item>
+    <item>
+      <title>Understanding Dementia: A Complete Guide for Families</title>
+      <link>https://every-day-care.com/blog/understanding-dementia-guide-families/</link>
+      <guid>https://every-day-care.com/blog/understanding-dementia-guide-families/</guid>
+      <description>A practical family guide to understanding dementia and supportive routines.</description>
+    </item>
+  </channel>
+</rss>

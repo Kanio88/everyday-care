@@ -1,0 +1,1 @@
+# No SPA catch-all: unknown paths must return the real 404.html response.

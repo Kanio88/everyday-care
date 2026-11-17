@@ -1,0 +1,117 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "Home Care in Sandwell & Dudley | Everyday Care Plus"
+    },
+    {
+      "path": "/services",
+      "title": "Home Care Services in Sandwell & Dudley | Everyday Care Plus"
+    },
+    {
+      "path": "/services/dementia-care",
+      "title": "Dementia Care at Home in Sandwell & Dudley | Everyday Care Plus"
+    },
+    {
+      "path": "/services/autism-neurodiversity",
+      "title": "Autism & Neurodiversity Home Support in Sandwell & Dudley | Everyday Care Plus"
+    },
+    {
+      "path": "/services/personal-care",
+      "title": "Personal Care at Home in Sandwell & Dudley | Everyday Care Plus"
+    },
+    {
+      "path": "/services/companionship",
+      "title": "Companionship Care in Sandwell & Dudley | Everyday Care Plus"
+    },
+    {
+      "path": "/services/respite-reablement",
+      "title": "Respite & Reablement Care in Sandwell & Dudley | Everyday Care Plus"
+    },
+    {
+      "path": "/services/medication-support",
+      "title": "Medication Support at Home in Sandwell & Dudley | Everyday Care Plus"
+    },
+    {
+      "path": "/about",
+      "title": "About Everyday Care Plus | Home Care in Sandwell & Dudley"
+    },
+    {
+      "path": "/testimonials",
+      "title": "Home Care Testimonials | Everyday Care Plus"
+    },
+    {
+      "path": "/faq",
+      "title": "Home Care FAQs for Sandwell & Dudley Families | Everyday Care Plus"
+    },
+    {
+      "path": "/blog",
+      "title": "Home Care Guides & Family Resources | Everyday Care Plus"
+    },
+    {
+      "path": "/blog/understanding-dementia-guide-families",
+      "title": "Understanding Dementia: A Guide for Families | Everyday Care Plus"
+    },
+    {
+      "path": "/blog/choosing-right-home-care-provider",
+      "title": "How to Choose a Home Care Provider | Everyday Care Plus"
+    },
+    {
+      "path": "/blog/funding-care-nhs-council-private",
+      "title": "Funding Home Care: NHS, Council & Private Options | Everyday Care Plus"
+    },
+    {
+      "path": "/blog/autism-home-care-what-to-expect",
+      "title": "Autism Home Care: What to Expect | Everyday Care Plus"
+    },
+    {
+      "path": "/blog/respite-care-when-family-carers-need-break",
+      "title": "When Family Carers Need a Break: Respite Care | Everyday Care Plus"
+    },
+    {
+      "path": "/blog/everyday-care-plus-launches-sandwell",
+      "title": "Everyday Care Plus Supports Families in Sandwell | Everyday Care Plus"
+    },
+    {
+      "path": "/blog/sensory-needs-autistic-adults",
+      "title": "Supporting Sensory Needs for Autistic Adults at Home | Everyday Care Plus"
+    },
+    {
+      "path": "/blog/autism-community-support-sandwell",
+      "title": "Autism Community Support in Sandwell | Everyday Care Plus"
+    },
+    {
+      "path": "/blog/autism-routines-home-care",
+      "title": "Why Routines Matter in Autism Home Care | Everyday Care Plus"
+    },
+    {
+      "path": "/book",
+      "title": "Book a Free Home Care Assessment | Everyday Care Plus"
+    },
+    {
+      "path": "/contact",
+      "title": "Contact Everyday Care Plus | Home Care in Sandwell & Dudley"
+    },
+    {
+      "path": "/privacy",
+      "title": "Privacy Policy | Everyday Care Plus"
+    },
+    {
+      "path": "/cookies",
+      "title": "Cookie Policy | Everyday Care Plus"
+    },
+    {
+      "path": "/terms",
+      "title": "Terms of Service | Everyday Care Plus"
+    },
+    {
+      "path": "/complaints",
+      "title": "Complaints Policy | Everyday Care Plus"
+    },
+    {
+      "path": "/accessibility",
+      "title": "Accessibility Statement | Everyday Care Plus"
+    }
+  ],
+  "generatedAt": "2026-08-22T20:06:47.513Z"
+}

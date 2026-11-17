@@ -1,0 +1,126 @@
+:root {
+  --brand-navy: #0f2041;
+  --brand-navy-deep: #0b1730;
+  --brand-blue: #2a4f76;
+  --brand-orange: #f47b20;
+  --brand-orange-accessible: #b54d0b;
+  --brand-orange-soft: #fff7ed;
+  --brand-mist: #f0f4f8;
+  --brand-sky: #e7eef5;
+  --brand-border: #d9e2ec;
+  --brand-muted: #4a5c7a;
+  --background: #fafbfd;
+  --foreground: var(--brand-navy);
+  --card: #ffffff;
+  --card-foreground: var(--brand-navy);
+  --primary: var(--brand-navy);
+  --primary-foreground: #ffffff;
+  --secondary: var(--brand-mist);
+  --secondary-foreground: var(--brand-navy);
+  --muted: var(--brand-mist);
+  --muted-foreground: var(--brand-muted);
+  --accent: var(--brand-orange-soft);
+  --accent-foreground: var(--brand-orange-accessible);
+  --border: var(--brand-border);
+  --input: var(--brand-border);
+  --ring: var(--brand-orange-accessible);
+  --radius: 0.875rem;
+  --radius-lg: 1.25rem;
+  --shadow-soft: 0 8px 24px rgb(15 32 65 / 8%);
+  --shadow-card: 0 12px 32px rgb(15 32 65 / 10%);
+  --content-max-width: 1280px;
+  --page-gutter: clamp(1rem, 3vw, 2rem);
+  --section-space: clamp(3.5rem, 8vw, 7rem);
+  --font-body: "Lato", system-ui, -apple-system, sans-serif;
+  --font-heading: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+html { scroll-behavior: smooth; overflow-x: hidden; }
+body { background: var(--background); color: var(--foreground); font-family: var(--font-body); line-height: 1.65; overflow-x: hidden; }
+h1, h2, h3, h4, h5, h6 { color: var(--brand-navy); font-family: var(--font-heading); font-weight: 600; line-height: 1.12; text-wrap: balance; }
+p { text-wrap: pretty; }
+a { color: var(--brand-orange-accessible); text-decoration-thickness: 0.09em; text-underline-offset: 0.18em; }
+a:hover { color: var(--brand-navy); }
+header nav a { color: #f6c08a; }
+header nav a:hover { color: #ffffff; }
+:where(a, button, input, select, textarea, summary):focus-visible { outline: 3px solid var(--brand-orange); outline-offset: 3px; box-shadow: 0 0 0 5px rgb(181 77 11 / 20%); }
+:where(button, [role="button"], input[type="submit"], input[type="button"]) { min-height: 44px; border-radius: 999px; font-family: var(--font-body); font-weight: 700; transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease; }
+:where(input, select, textarea) { border-color: var(--brand-border); border-radius: 0.75rem; }
+:where(.container, [class~="container"]) { width: min(100%, var(--content-max-width)); padding-inline: var(--page-gutter); }
+:where(.rounded-2xl, .rounded-xl) { border-radius: var(--radius-lg); }
+:where(.bg-white) { background-color: var(--card); }
+:where(.border, .border-border) { border-color: var(--brand-border); }
+:where(.shadow, .shadow-sm, .shadow-md, .shadow-lg) { box-shadow: var(--shadow-soft); }
+:where(.text-muted-foreground) { color: var(--brand-muted); }
+@media (max-width: 639px) { :where(h1, .text-5xl, .text-6xl, .text-7xl) { font-size: clamp(2.25rem, 12vw, 3.5rem); line-height: 1.06; } :where(.grid) { min-width: 0; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; } }
+
+/* Header: make the navigation a clear, thumb-friendly decision anchor. */
+body > #root nav.fixed {
+  background: rgb(11 23 48 / 94%);
+  border-bottom: 1px solid rgb(255 255 255 / 14%);
+  box-shadow: 0 8px 24px rgb(7 18 38 / 18%);
+}
+
+body > #root nav.fixed > div {
+  min-height: 4.5rem;
+}
+
+body > #root nav.fixed > div > a:first-child {
+  min-height: 44px;
+  font-size: 1.2rem;
+}
+
+body > #root nav.fixed > div > div a {
+  min-height: 44px;
+  align-items: center;
+  display: inline-flex;
+  font-size: 0.96rem;
+  letter-spacing: 0.01em;
+}
+
+body > #root nav.fixed > div > div a {
+  padding-inline: 0.95rem;
+  font-weight: 700;
+}
+
+body > #root nav.fixed > div > div a:hover,
+body > #root nav.fixed > div > div a:focus-visible {
+  background: rgb(255 255 255 / 16%);
+  color: #ffffff;
+}
+
+body > #root nav.fixed button {
+  min-height: 44px;
+  min-width: 44px;
+  border: 1px solid rgb(255 255 255 / 28%);
+  border-radius: 0.75rem;
+  color: #ffffff;
+}
+
+/* Hero: retain the deep navy anchor while adding a lighter visual release. */
+body > #root section.relative[class~="min-h-[90vh]"],
+body > #root section.relative[class~="min-h-screen"] {
+  background: linear-gradient(135deg, #0b1730 0%, #163653 48%, #7899a9 125%);
+  isolation: isolate;
+}
+
+body > #root section.relative[class~="min-h-[90vh]"] > div.absolute:first-child > div.absolute:nth-child(2),
+body > #root section.relative[class~="min-h-screen"] > div.absolute:first-child > div.absolute:nth-child(2) {
+  background: linear-gradient(115deg, rgb(11 23 48 / 98%) 0%, rgb(15 32 65 / 90%) 40%, rgb(45 82 105 / 48%) 78%, rgb(221 234 237 / 12%) 100%) !important;
+}
+
+body > #root section.relative[class~="min-h-[90vh]"] > div.absolute:first-child > div.absolute:nth-child(3),
+body > #root section.relative[class~="min-h-screen"] > div.absolute:first-child > div.absolute:nth-child(3) {
+  background: linear-gradient(15deg, rgb(11 23 48 / 72%) 0%, transparent 58%, rgb(212 228 232 / 18%) 100%) !important;
+}
+
+@media (max-width: 1023px) {
+  body > #root nav.fixed > div {
+    min-height: 4.25rem;
+  }
+
+  body > #root nav.fixed > div > a:first-child {
+    font-size: 1.1rem;
+  }
+}
